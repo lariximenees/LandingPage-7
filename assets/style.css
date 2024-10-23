@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw; 
+    height: 12vh;   
+}
+
+.navigation{
+    display: flex;
+    gap: 2vw;
+    height: 100%;
+}
+
+.anchor{
+    height: 100%;
+    display: flex;
+    width: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor:hover{
+    color: white;
+    background-color: #ff4800;
+}
+.anchor:hover a{
+    color: white;
+   
+}
+
+.anchor a{
+    text-decoration: none;
+    color: rgb (101, 101, 101);
+
+}
+
+.getQuote{
+    width: 10vw;
+    background-color: #ff4800;
+    color: white;
+    border: none;
+    height: 4vh;
+    cursor: pointer;
+
+}
+
+.safeFaster{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.imagem img{
+    width: 100vw;
+    height: 70vh;
+}
+
+.sectionFaster{
+    position: absolute;
+    margin-top: 20vh;
+
+   
+}
+
+.sectionFaster h2{
+    color: #ff4800;
+    font-size: 200%;
+    margin-bottom: 2vh;
+}
+
+.sectionFaster h1{
+    color: white;
+    font-size: 250%;
+    margin-bottom: 3vh;
+    
+}
+
+.inputTrack{
+    height: 4.8vh;
+    width:30vh;
+    
+}
+
+.buttonTrack{
+    color:white;
+    background-color: #ff4800;
+    cursor: pointer;
+    height: 5.4vh;
+    width:12vh;
+    font-size: small;
+    border: none;
+}
+
+.trackingId{
+    display: flex; 
+    align-items: center;   
+}
+
+.inputTrack{
+    margin-right: -5px;
+
+}
+.buttonTrack{
+    margin-left: -6px;
+}
